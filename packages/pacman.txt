@@ -55,6 +55,7 @@ power-profiles-daemon
 ripgrep
 rlwrap
 rog-control-center
+rsync
 rust
 sof-firmware
 supergfxctl
