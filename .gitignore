@@ -1,0 +1,17 @@
+# Secrets
+home/.ssh/
+home/.gnupg/
+
+# Cache / state
+**/.cache/
+**/undo/
+**/swap/
+**/session/
+
+# OS junk
+.DS_Store
+
+
+config/nvim/.git/
+config/nvim/lazy-lock.json
+
