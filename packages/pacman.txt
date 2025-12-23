@@ -57,6 +57,7 @@ rlwrap
 rog-control-center
 rsync
 rust
+sddm
 sof-firmware
 supergfxctl
 sysfsutils
