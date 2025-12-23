@@ -1,6 +1,9 @@
 // This config is in the KDL format: https://kdl.dev
 // Check the wiki for a full description of the configuration:
 // https://yalter.github.io/niri/Configuration:-Introduction
+
+// Include local output if it exist
+include "./output-local.kdl"
 prefer-no-csd
 
 layer-rule {
@@ -8,7 +11,6 @@ layer-rule {
     match namespace="^noctalia-wallpaper-.*$"
     place-within-backdrop true
 }
-
 overview {
     // This makes sure Niri doesn't paint a solid color over the wallpaper
     backdrop-color "rgba(0, 0, 0, 0.0)"
@@ -43,13 +45,6 @@ options "caps:escape";
 }
 
 
-output "eDP-1" {
-    mode "1920x1080@60.003"
-    //mode "1920x1080@360.006" 
-    position x=0 y=0
-    scale 1
-    transform "normal"
-}
 
 layout {
     gaps 6
