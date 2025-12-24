@@ -28,6 +28,7 @@ intel-media-driver
 intel-ucode
 jq
 lastpass-cli
+less
 libpulse
 linux
 linux-firmware
@@ -57,7 +58,6 @@ rlwrap
 rog-control-center
 rsync
 rust
-sddm
 sof-firmware
 supergfxctl
 sysfsutils
