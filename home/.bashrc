@@ -17,6 +17,10 @@ alias ls='ls $LS_OPTIONS'
 alias ll='ls -lah'
 alias la='ls -A'
 
+alias ls='eza --icons=always --color=always --no-user --group-directories-first'
+alias ll='eza -lgh --icons=always --no-user --group-directories-first'
+alias la='eza -la --icons=always --no-user --group-directories-first'
+
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'

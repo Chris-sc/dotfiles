@@ -17,6 +17,7 @@ dotnet-sdk
 easyeffects
 efibootmgr
 evtest
+eza
 fd
 fuzzel
 fwupd
@@ -61,6 +62,7 @@ rust
 sof-firmware
 supergfxctl
 sysfsutils
+terminus-font
 ttf-jetbrains-mono-nerd
 unzip
 upscayl-appimage
