@@ -19,6 +19,17 @@ return {
     end,
   },
 
+  {
+    'OXY2DEV/markview.nvim',
+    lazy = false,
+    opts = {
+      preview = {
+        filetypes = { 'markdown', 'codecompanion' },
+        ignore_buftypes = {},
+      },
+    },
+  },
+
   -- Conjure
   {
     'Olical/conjure',

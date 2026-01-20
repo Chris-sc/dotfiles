@@ -3,6 +3,8 @@ alsa-firmware
 alsa-tools
 alsa-utils
 asusctl
+azure-cli
+babashka-bin
 base
 base-devel
 bat
@@ -13,6 +15,8 @@ cliphist
 clojure
 clojure-lsp-bin
 ddcutil
+docker
+docker-buildx
 dotnet-sdk
 easyeffects
 efibootmgr
@@ -46,6 +50,7 @@ nvidia-open-dkms
 nvidia-prime
 nvidia-settings
 nvidia-utils
+ollama
 pavucontrol
 pipewire
 pipewire-alsa

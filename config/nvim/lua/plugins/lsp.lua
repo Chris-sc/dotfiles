@@ -59,7 +59,7 @@ return {
           lsp.clojure_lsp.setup {
             capabilities = caps,
 
-            root_dir = util.root_pattern('deps.edn', 'bb.edn', '.git'),
+            root_dir = util.root_pattern('workspace.edn', 'deps.edn', 'bb.edn', '.git'),
 
             settings = {
               clojureLsp = {

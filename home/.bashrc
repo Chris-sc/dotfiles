@@ -64,7 +64,19 @@ parse_git_branch() {
     git branch 2>/dev/null | sed -n '/\* /s///p'
 }
 
-PS1='\[\033[33m\]\w\[\033[0m\]$(git branch --show-current 2>/dev/null | awk "{print \" (\033[35m\" \$1 \"\033[0m)\"}")\n\$ '
+
+
+git_prompt() {
+  local branch dirty
+  branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null) || return
+  git diff --quiet || dirty="*"
+  echo " ($branch$dirty)"
+}
+
+PS1='\[\e[33m\]\w\[\e[0m\]\[\e[35m\]$(git_prompt)\[\e[0m\]\n\[\e[36m\]\$\[\e[0m\] '
+
+
+#PS1='\[\033[33m\]\w\[\033[0m\]$(git branch --show-current 2>/dev/null | awk "{print \" (\033[35m\" \$1 \"\033[0m)\"}")\n\$ '
 
 # -----------------------
 # History settings
