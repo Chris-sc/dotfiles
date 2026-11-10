@@ -5,13 +5,9 @@ vim.g.maplocalleader = '\\'
 vim.g.have_nerd_font = true
 opt.winborder = 'rounded'
 
--- Persistent Undo
+-- Persistent Undo (Neovim automatically creates stdpath('state')/undo)
 opt.undofile = true
 opt.undolevels = 10000
-local undo_path = vim.fn.stdpath 'state' .. '/undo'
-if vim.fn.isdirectory(undo_path) == 0 then
-  vim.fn.mkdir(undo_path, 'p')
-end
 
 -- Standard Options
 opt.clipboard = 'unnamedplus'
@@ -20,7 +16,6 @@ opt.relativenumber = false
 opt.mouse = 'a'
 opt.confirm = true
 opt.breakindent = true
-opt.termguicolors = true
 opt.cursorline = true
 opt.updatetime = 250
 opt.timeoutlen = 300

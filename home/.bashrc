@@ -125,3 +125,8 @@ alias egrep='egrep --color=auto'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/ccransto/.local/bin:$PATH"
+export PATH="/home/ccransto/.local/bin:$PATH"

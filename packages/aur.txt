@@ -1,9 +1,13 @@
 babashka-bin
+beekeeper-studio-bin
+beekeeper-studio-bin-debug
 clojure-lsp-bin
-gpu-screen-recorder
+gpu-screen-recorder-debug
 lastpass-cli
+noctalia-qs
 noctalia-shell
 polychromatic
+supergfxctl
 upscayl-appimage
 yay
 yay-debug
