@@ -35,7 +35,6 @@ alias vim='nvim'
 # -----------------------
 # Language / locale
 # -----------------------
-export LANG=en_US.UTF-8
 
 # -----------------------
 # FZF integration (if installed)
@@ -125,3 +124,4 @@ alias egrep='egrep --color=auto'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+alias jami="flatpak run net.jami.Jami"

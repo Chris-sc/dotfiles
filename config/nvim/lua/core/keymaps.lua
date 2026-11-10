@@ -7,14 +7,12 @@ map('n', '<C-h>', '<C-w><C-h>', { desc = 'Focus Left' })
 map('n', '<C-l>', '<C-w><C-l>', { desc = 'Focus Right' })
 map('n', '<C-j>', '<C-w><C-j>', { desc = 'Focus Down' })
 map('n', '<C-k>', '<C-w><C-k>', { desc = 'Focus Up' })
-map('n', '<C-w>e', ':Vexplore<CR>', { desc = 'Open Vexplore', noremap = true, silent = true })
+map('n', '<C-w>e', ':Vexplore<CR>', { desc = 'Open Vexplore' })
 
 -- Diagnostics
 map('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Quickfix' })
 map('n', '<leader>d', vim.diagnostic.open_float, { desc = 'Line Diagnostic' })
-map('n', '<leader>Q', function()
-  vim.cmd 'cclose'
-end, { desc = 'Close Quickfix' })
+map('n', '<leader>Q', '<cmd>cclose<CR>', { desc = 'Close Quickfix' })
 
 -- Visual Move
 map('x', '<A-k>', ":move '<-2<CR>gv=gv")

@@ -123,14 +123,6 @@
             ],
             "right": [
                 {
-                    "deviceNativePath": "",
-                    "displayMode": "onhover",
-                    "id": "Battery",
-                    "showNoctaliaPerformance": false,
-                    "showPowerProfiles": true,
-                    "warningThreshold": 30
-                },
-                {
                     "displayMode": "onhover",
                     "id": "Volume"
                 },

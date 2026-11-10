@@ -94,7 +94,7 @@ layout {
     }
 }
 
-spawn-sh-at-startup "qs -c ~/.config/quickshell/noctalia-shell"
+spawn-sh-at-startup "noctalia"
 
 hotkey-overlay {
     skip-at-startup
